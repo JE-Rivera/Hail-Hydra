@@ -8,6 +8,7 @@ namespace Guia10_Ejercicio32
 {
     class Program
     {
+        
         /*Dados los nombres y la carrera que estudian n personas en la FIA, imprima el nombre de la carrera y a continuación
         los nombres de las personas que estudian la carrera para cada una de ellas.*/
         static void Main(string[] args)
@@ -18,7 +19,7 @@ namespace Guia10_Ejercicio32
             string[] Carrerasnames = new string[] { "Arquitectura", "Ingenieria Civil", "Ingeniera Industrial", "Ingeniera Mecanica", "Ingeniera Electrica", "Ingeniera Quimica", "Ingeniera Alimentos", "Ingeniera Sistemas" };
             int cont = 0;
             string b;
-
+        Console.WriteLine(@"Gracias totales");
             do
             {
                 Console.Write("Ingrese el nombre del estudiante: ");
